@@ -57,6 +57,7 @@ main{
     background-color: rgb(255, 139, 139);
     /* Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 #menu{
