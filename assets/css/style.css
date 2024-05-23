@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /* Asterisk wildcard selector to override any default styles added by the browser */
-
 * {
 
     padding: 0;
@@ -39,7 +38,7 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    z-index: 100;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -86,6 +85,56 @@ main {
 #cover-text>h3 {
 
     color: #ffffff;
+}
+
+#reasons {
+
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+#reasons>h2 {
+
+    font-size: 280%;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+
+
+#benefits-physical {
+
+    line-height: 20px;
+}
+
+#benefits-mental {
+    line-height: 20px;
+}
+
+
+#benefits-physical hr {
+
+    border: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits-mental hr {
+
+    border: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits-physical div,
+#benefits-mental div {
+
+    margin-bottom: 20px;
+}
+
+#reasons p {
+
+    padding: 0 20px;
 }
 
 #menu {
